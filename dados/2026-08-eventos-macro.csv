@@ -1,0 +1,8 @@
+data_analise,data_evento,indicador,periodo_referencia,observado,esperado,surpresa,unidade,fonte_observado,fonte_consenso
+2026-08-07,2026-08-05,Meta Selic,2026-08-05,14.00,14.00,0.00,% a.a.,Banco Central do Brasil,Reuters
+2026-08-14,2026-08-11,IPCA mensal,2026-07,0.07,0.03,0.04,%,IBGE,Reuters
+2026-08-14,2026-08-11,IPCA em 12 meses,2026-07,4.44,4.40,0.04,%,IBGE,Reuters
+2026-08-21,2026-08-17,IBC-Br mensal com ajuste sazonal,2026-06,-0.64,-0.53,-0.11,%,Banco Central do Brasil,Reuters
+2026-08-21,2026-08-17,IBC-Br trimestral com ajuste sazonal,2026-T2,0.20,,,%,Banco Central do Brasil,
+2026-08-28,2026-08-28,Saldo líquido Novo Caged,2026-07,58568,112000,-53432,vagas,Ministério do Trabalho e Emprego,Reuters
+2026-08-28,2026-08-27,Taxa de desocupação PNAD Contínua,trimestre encerrado em 2026-07,5.30,,,%,IBGE,
