@@ -1,74 +1,55 @@
-# Macro Research Brazil
+# Pesquisa Macro Brasil
 
-Repositório de treino semanal de análise macroeconômica aplicada ao Brasil. O objetivo é transformar dados, notícias e decisões de política econômica em hipóteses condicionais, cadeias causais, cenários e implicações para os mercados.
+Projeto de análises semanais sobre choques macroeconômicos e seus efeitos no Brasil. O objetivo é mostrar como o autor usa dados reais e mecanismos econômicos para construir hipóteses, cenários e implicações para os mercados.
 
-## Gabarito de agosto de 2026
+## Sobre a autoria
 
-| Data | Caso | Questão central | Status em 03/09/2026 |
-| --- | --- | --- | --- |
-| 07/08 | Copom reduz a Selic para 14,00% | A comunicação foi mais importante que o corte esperado? | Em acompanhamento |
-| 14/08 | IPCA de julho + ata do Copom | A desinflação é disseminada e persistente? | Em acompanhamento |
-| 21/08 | IBC-Br de junho | A atividade está desacelerando o suficiente para aliviar a inflação? | Parcialmente confirmado |
-| 28/08 | Novo Caged de julho | O emprego formal confirma a desaceleração da demanda? | Inconclusivo |
+As análises autorais registram a hipótese inicial e a conclusão formuladas por Lucas. A IA é usada como tutora durante o exercício e como revisora crítica e textual; não substitui a interpretação do autor. As respostas-modelo de agosto estão separadas em `exercicios-guiados/` e não são apresentadas como análises autorais.
 
-As quatro análises são **respostas-modelo**. Apenas a hipótese da primeira semana havia sido redigida anteriormente pelo assistente “como se fosse o aluno”; nas demais semanas não houve resposta original de Lucas. Por isso, nenhum trecho deste gabarito deve ser apresentado como raciocínio autoral sem ser refeito, discutido e validado por ele.
-
-## Estrutura
+## Conteúdo
 
 ```text
-macro-research-brazil/
+Pesquisa-Macro-Brasil/
 ├── README.md
+├── analises/                 # análises formuladas e validadas pelo autor
+├── exercicios-guiados/       # respostas-modelo de exercícios anteriores
 ├── template/
 │   └── analise-semanal.md
-├── analises/
-│   └── 2026/
-│       ├── 2026-08-07-copom-selic-14-comunicacao/
-│       ├── 2026-08-14-ipca-desinflacao-copom-cautela/
-│       ├── 2026-08-21-ibc-br-desaceleracao-atividade/
-│       └── 2026-08-28-caged-desaceleracao-emprego/
 ├── revisoes/
 │   └── acompanhamento-de-cenarios.md
 └── dados/
     ├── README.md
-    └── 2026-08-eventos-macro.csv
+    └── arquivos de dados públicos e reproduzíveis
 ```
 
-Cada pasta semanal contém:
+## Exercícios guiados de agosto de 2026
 
-- `analise.md`: gabarito completo com hipótese, mecanismos, modelos, cenários, ativos, riscos e controle da previsão;
-- `fontes.md`: fontes oficiais e jornalísticas utilizadas, com a função de cada uma.
+| Data | Caso | Questão central |
+| --- | --- | --- |
+| 07/08 | Decisão do Copom e Selic a 14% | A comunicação trouxe informação nova além do corte esperado? |
+| 14/08 | IPCA de julho e ata do Copom | A desinflação era disseminada e persistente? |
+| 21/08 | IBC-Br de junho | A atividade estava desacelerando o suficiente para aliviar a inflação? |
+| 28/08 | Novo Caged de julho | O emprego formal confirmava a desaceleração da demanda? |
 
-## Método de estudo
+Esses materiais são respostas-modelo elaboradas com assistência de IA para servir como referência de estudo. As análises autorais semanais serão publicadas separadamente em `analises/`, depois que Lucas formular e validar suas próprias conclusões.
 
-1. Leia somente o contexto e os dados observados.
-2. Responda, em até 15 minutos: choque, classificação, persistência e hipótese inicial.
-3. Construa a cadeia causal e os três cenários em até 15 minutos.
-4. Compare sua resposta com o gabarito, procurando variáveis esquecidas e elos frágeis.
-5. Reescreva a conclusão em linguagem condicional e atualize o controle da previsão.
+## Como cada análise autoral é produzida
 
-Tempo-alvo: **30 a 45 minutos** por análise. O gabarito deve servir como régua de qualidade, não como texto para memorização.
+1. Lucas registra sua interpretação inicial em suas próprias palavras.
+2. Os dados divulgados, expectativas e fontes são conferidos e distinguidos de hipóteses.
+3. A IA questiona os mecanismos e aponta variáveis ausentes ou elos frágeis.
+4. Lucas formula a conclusão revisada; a edição textual não altera o sentido sem sua validação.
+5. A análise é acompanhada com indicadores que podem confirmar ou invalidar os cenários.
 
-## Convenções
+Tempo-alvo: **30 a 45 minutos** por exercício. O texto público deve mostrar raciocínio econômico verificável, não apenas uma conclusão polida.
 
-- **Fato:** dado observado ou informação documentada.
-- **Hipótese:** interpretação ainda sujeita a teste.
-- **Mecanismo:** canal que liga causa e efeito.
+## Padrão de evidência
+
+- **Fato:** dado observado, com fonte e data de divulgação.
+- **Expectativa:** estimativa disponível antes do evento, com fonte e horário ou data.
+- **Hipótese:** interpretação sujeita a teste.
+- **Mecanismo:** canal econômico que liga causa e efeito.
 - **Previsão:** resultado esperado sob condições explícitas.
-- **Risco:** evento que pode invalidar a hipótese.
-- **Opinião:** julgamento não demonstrado pelos dados.
+- **Risco:** evento ou dado que pode invalidar a hipótese.
 
-## Política de dados e fontes
-
-São usados apenas dados públicos, rastreáveis e reproduzíveis. Fontes oficiais têm prioridade para fatos; a Reuters é usada principalmente para expectativas de consenso, reação de economistas e contexto de mercado. A data de corte desta versão é **3 de setembro de 2026**.
-
-## Uso em portfólio
-
-Uma análise só deve migrar do gabarito para o portfólio autoral depois que Lucas:
-
-1. refizer a hipótese inicial sem consultar a resposta-modelo;
-2. justificar pelo menos dois elos da cadeia causal;
-3. escolher indicadores que possam invalidar sua tese;
-4. atualizar o cenário com dados posteriores;
-5. escrever a conclusão final com suas próprias palavras.
-
-
+São usados dados públicos, rastreáveis e reproduzíveis. Fontes oficiais têm prioridade para fatos; fontes de mercado são usadas para consenso e reação dos ativos. Números revisados são identificados como revisões.
